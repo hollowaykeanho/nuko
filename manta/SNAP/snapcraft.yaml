@@ -1,0 +1,36 @@
+name: nuko
+version: '0.2.1'
+summary: This package nuko provides a method to remove Android bloatwares.
+description: |
+        nuko provides a way for removing Android bloatwares from the phone
+        using the ADB, without rooting or breaking the manufacturer's updates.
+        This is for the developer who had enough with bloatwares packed by the
+        manufacturers and clotted the phone system with no way of uninstalling.
+        Use cautiously.
+type: app
+architectures:
+        - build-on: amd64
+          run-on: amd64
+        - build-on: i386
+          run-on: i386
+grade: stable
+confinement: strict
+
+parts:
+  nuko:
+    source: .
+    plugin: dump
+    override-build: |
+            snapcraftctl build
+            mkdir -p $SNAPCRAFT_PART_INSTALL/bin
+            mkdir -p $SNAPCRAFT_PART_INSTALL/lib
+            cp nuko.sh $SNAPCRAFT_PART_INSTALL/bin/nuko
+            cp -r nukolib $SNAPCRAFT_PART_INSTALL/lib/nukolib
+
+apps:
+  nuko:
+    command: bin/nuko
+    plugs:
+      - home
+      - network
+      - network-bind

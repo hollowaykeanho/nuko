@@ -1,0 +1,11 @@
+nuko (0.2.1-DISTTAG) DISTSERIES; urgency=low
+
+  *README.md: amended README to comply GitLab latest Markdown styling  *manta: updated upstream protocol
+
+ -- ZORALab Enterprise <tech@zoralab.com>  Fri, 21 Dec 2018 09:55:35 +0800
+
+nuko (0.2.0-DISTTAG) DISTSERIES; urgency=low
+
+  *root: added standard CONTRIBUTING.md document  *root: added manta packaging manager  *root: added README.md into repository
+
+ -- ZORALab Enterprise <tech@zoralab.com>  Mon, 23 Jul 2018 23:52:47 +0800

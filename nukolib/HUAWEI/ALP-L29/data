@@ -1,0 +1,81 @@
+#!/bin/bash
+maintainer_full_name="Chew, Kean Ho"
+maintainer_email="tech@zoralab.com"
+maintainer_status="active"
+
+apps=(
+	# removable apps
+	"com.huawei.KoBackup"
+	"com.booking"
+	"com.huawei.compass"
+	"com.cnn.mobile.android.phone"
+	"com.facebook.katana"
+	"com.instagram.android"
+	"com.lazada.android"
+	"com.facebook.orca"
+	"com.android.hwmirror"
+	"com.amazon.avod.thirdpartyclient"
+	"com.stupeflix.replay"
+	"com.huawei.android.tips"
+	"com.google.android.apps.docs.editors.docs"
+	"com.google.android.apps.docs.editors.sheets"
+	"com.google.android.apps.docs.editors.slides"
+	"com.huawei.android.remotecontroller"
+	"com.microsoft.translator"
+	"com.huawei.health"
+	"com.hicloud.android.clone"
+
+	# wallpapers apps
+	"com.huawei.livewallpaper.flowersbloom"
+	"com.huawei.livewallpaper.artflower"
+	"com.huawei.livewallpaper.naturalgarden"
+	"com.huawei.livewallpaper.mountaincloud"
+
+	# android native apps
+	"com.android.calculator2"
+	"com.android.calendar"
+	"com.android.email"
+	"com.android.mms"
+	"com.android.soundrecorder"
+	"com.android.stk"
+	"com.android.mediacenter"
+	"com.example.android.notepad"
+
+	# facebook background services
+	"com.facebook.system"
+	"com.facebook.appmanager"
+	"com.facebook.services"
+
+	# google background services
+	"com.google.android.apps.docs"
+	"com.google.android.apps.tachyon"
+	"com.google.android.gm"
+	"com.google.android.videos"
+	"com.google.android.music"
+	"com.google.android.marvin.talkback"
+	"com.google.android.tts"
+	"com.google.android.apps.maps"
+	"com.google.android.apps.photos"
+	"com.google.android.youtube"
+
+	# hwawei services
+	"com.huawei.desktop.explorer"
+	"com.huawei.hidisk"
+	"com.huawei.intelligent"
+	"com.huawei.phoneservice"
+	"com.huawei.hifolder"
+	"com.huawei.vassistant"
+	"com.huawei.imedia.sws"
+	"com.huawei.android.internal.app"
+	"com.huawei.mirrorlink"
+	"com.huawei.android.mirrorshare"
+	"com.huawei.himovie"
+	"com.huawei.android.totemweatherapp"
+	"com.huawei.android.totemweather"
+	"com.huawei.android.totemweatherwidget"
+	"com.huawei.appmarket"
+	"com.huawei.hiview"
+	"com.realvnc.android.remote"
+	"com.swiftkey.swiftkeyconfigurator"
+	"com.touchtype.swiftkey"
+)

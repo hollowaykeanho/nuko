@@ -1,0 +1,16 @@
+Source: nuko
+Section: devel
+Priority: optional
+Maintainer: ZORALab Enterprise <tech@zoralab.com>
+Build-Depends: debhelper (>=9), bash (>=4.3)
+Standards-Version: 0.2.1
+Homepage: https://gitlab.com/ZORALab/nuko
+
+Package: nuko
+Architecture: all
+Depends: ${misc:Depends}, bash (>=4.3)
+Description: This package nuko provides a method to remove Android bloatwares.
+ nuko provides a way for removing Android bloatwares from the phone using
+ the ADB, without rooting or breaking the manufacturer's updates. This is for
+ the developer who had enough with bloatwares packed by the manufacturers and
+ clotted the phone system with no way of uninstalling. Use cautiously.
